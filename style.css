@@ -1,0 +1,20 @@
+body{
+    margin-left: 40%;
+}
+
+input{
+    background-color: pink;
+}
+
+.regi{
+    border: 2px solid gray;
+    max-width: 350px;
+    min-width: 350px;
+}
+
+.beli{
+    margin-top: 5px;
+    border: 2px solid gray;
+    max-width: 350px;
+    min-width: 350px;
+}

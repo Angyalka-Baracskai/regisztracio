@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisztráció, Belépés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="regi">
+        <h1>Regisztráció</h1>
+        <form>
+            <label for="fname">Név</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pass1">Jelszó</label><br>
+            <input type="password" id="pass1" name="pass1"><br>
+            <label for="pass2">Jelszó újra</label><br>
+            <input type="password" id="pass2" name="pass2"><br>
+            <label for="date">Születési dátum</label>
+            <input type="date" id="date" name="date"/><br>
+            <label for="gender">Neme</label>
+            <input type="radio" id="man" name="man" value="Férfi">
+            <label for="man">Férfi</label><br>
+            <input type="radio" id="woman" name="woman" value="Nő">
+            <label for="woman">Nő</label><br>
+            <input type="radio" id="other" name="other" value="Egyéb">
+            <label for="other">Egyéb</label><br>
+            <label for="check">Számlaszám</label><br>
+            <input type="number" id="check" name="check"><br>
+            <label for="exe">Szeme színe</label>
+            <select>
+                <option value="vanilla">Kék</option>
+                <option value="chocolate" selected>Barna</option>
+                <option value="pistachio">Zöld</option>
+              </select><br>
+            <label for="profile">Profilkép</label>
+            <input type="file" id="profile" name="profile"><br><br>
+            <input type="checkbox" id="over" name="over" value="over">
+            <label for="over">200 cm feletti</label><br>
+            <input type="checkbox" id="under" name="under" value="under">
+            <label for="under">120 kg feletti</label><br>
+            <label for="introduce">Bemutatkozás</label>
+            <input type="text" name="introduce" id="introduce"><br>
+            <input type="submit" value="Regisztráció" id="button">
+          </form>
+    </div>
+    <div class="beli">
+        <h1>Belépés</h1>
+        <form>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="pass1">Jelszó</label><br>
+            <input type="password" id="pass1" name="pass1"><br>
+            <input type="submit" value="Bejelentkezés" id="button">
+        </form>
+    </div>
+</body>
+</html>
